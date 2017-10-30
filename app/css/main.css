@@ -1,0 +1,56 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 0 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h4, h5, h6, h1, h2, h3, ul, p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'GothaProReg';
+  src: url(../fonts/GothaProReg.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'GothaProLig';
+  src: url(../fonts/GothaProLig.otf);
+  font-style: normal;
+  font-weight: lighter;
+}
+
+body {
+  background-image: url("../img/background.png");
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.wrap h1 {
+  font-family: "GothaProReg", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  line-height: 1.5em;
+  margin-top: 30%;
+  margin-bottom: 50px;
+}
+
+.wrap a {
+  color: #b28a47;
+  font-family: "GothaProReg", sans-serif;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */
