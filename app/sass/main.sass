@@ -1,34 +1,37 @@
 @import "var.sass"
-@font-face
-  font-family: 'GothaProReg'
-  src: url(../fonts/GothaProReg.otf)
-  font-style: normal
-  font-weight: normal
-@font-face
-  font-family: 'GothaProLig'
-  src: url(../fonts/GothaProLig.otf)
-  font-style: normal
-  font-weight: lighter
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,700&amp;subset=cyrillic')
 body
 	background-image: url("../img/background.png")
 	// background-repeat: no-repeat
 	background-size: cover
 .wrap
-
+	padding-top: 50px
 	h1
-		font-family: $font-reg
-		font-size: 24px
+		font-family: 'Ubuntu', sans-serif
+  	font-weight: 700
+  	font-style: normal
 		text-align: center
 		margin: auto
 		align-self: center
 		// position: relative
 		// top: 50%
-		line-height: 1.5em
+		line-height: 1.8em
 		margin-top: 30%
 		margin-bottom: 50px
-	a
-		color: $color_main
-		font-family: $font-reg
-		font-size: 18px
+		color: #ffffff
+		font-size: 24px
+	span
+		font-family: 'Ubuntu', sans-serif
+		font-weight: 300
+		font-style: normal
+
+.logo-wrap
+	a 
+		display: inline-block
+		background-image: url("../img/logo.png")
+		background-repeat: no-repeat
+		background-size: contain
+		width: 190px
+		height: 61px
 
 @import "media.sass"
